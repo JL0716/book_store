@@ -6,3 +6,6 @@
 
 1. 安裝 date time 套件, 要先切換在專案目錄底下
 > composer require nesbot/carbon
+
+2. 安裝 databse 套件, 才能新增資料表, 一樣在專案目錄底下
+> composer require illuminate/database

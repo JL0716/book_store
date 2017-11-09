@@ -1,4 +1,4 @@
-{
+{ 
     "name": "myven/composer-project",
     "description": "use composer to build our project.",
     "type": "project",
@@ -12,7 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "illuminate/database": "^5.6@dev",
-        "doctrine/dbal": "^2.7@dev"
+        "doctrine/dbal": "^2.7@dev",
+        "nesbot/carbon": "^1.23@dev"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.8@dev"

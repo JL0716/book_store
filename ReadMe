@@ -12,3 +12,6 @@
 
 3. 安裝 doctrine/dbal 套件, 才能修改資料表的欄位, 一樣在專案目錄底下
 > composer require doctrine/dbal
+
+4. 安裝 fzaninotto/faker 套件, 才能新增資料至資料表, 一樣在專案目錄底下
+> composer require --dev fzaninotto/faker (--dev 表示只安裝在開發環境)

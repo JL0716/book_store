@@ -1,5 +1,20 @@
 {
+    "name": "myven/composer-project",
+    "description": "use composer to build our project.",
+    "type": "project",
+    "license": "free",
+    "authors": [
+        {
+            "name": "Jones Lin",
+            "email": "jones0716@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
-        "nesbot/carbon": "^1.22"
+        "illuminate/database": "^5.6@dev",
+        "doctrine/dbal": "^2.7@dev"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.8@dev"
     }
 }
